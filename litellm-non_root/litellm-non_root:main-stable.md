@@ -1,6 +1,6 @@
 
-<h3>Target <code>ghcr.io/berriai/litellm-non_root:main-latest</code></h3>
-<h4>Vulnerabilities (57)</h4>
+<h3>Target <code>ghcr.io/berriai/litellm-non_root:main-stable</code></h3>
+<h4>Vulnerabilities (60)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -220,18 +220,18 @@
         <td>18.19.1, 20.11.1, 21.6.2</td>
     </tr>
     <tr>
-        <td><code>python</code></td>
-        <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-4138" target="_blank">CVE-2025-4138</a></td>
-        <td>High</td>
-        <td>3.13.1</td>
-        <td>3.9.23, 3.10.18, 3.11.13, 3.12.11, 3.13.4, 3.14.0</td>
-    </tr>
-    <tr>
         <td><code>node</code></td>
         <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-23166" target="_blank">CVE-2025-23166</a></td>
         <td>High</td>
         <td>18.4.0</td>
         <td>20.19.2, 22.15.1, 23.11.1, 24.0.2</td>
+    </tr>
+    <tr>
+        <td><code>python</code></td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-4138" target="_blank">CVE-2025-4138</a></td>
+        <td>High</td>
+        <td>3.13.1</td>
+        <td>3.9.23, 3.10.18, 3.11.13, 3.12.11, 3.13.4, 3.14.0</td>
     </tr>
     <tr>
         <td><code>python</code></td>
@@ -248,13 +248,6 @@
         <td>18.20.4, 20.15.1, 22.4.1</td>
     </tr>
     <tr>
-        <td><code>cryptography</code></td>
-        <td><a href="https://github.com/advisories/GHSA-79v4-65xg-pq4g" target="_blank">GHSA-79v4-65xg-pq4g</a></td>
-        <td>Low</td>
-        <td>43.0.1</td>
-        <td>44.0.1</td>
-    </tr>
-    <tr>
         <td><code>node</code></td>
         <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-32212" target="_blank">CVE-2022-32212</a></td>
         <td>High</td>
@@ -262,11 +255,11 @@
         <td>18.5.0</td>
     </tr>
     <tr>
-        <td><code>node</code></td>
-        <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-23085" target="_blank">CVE-2025-23085</a></td>
-        <td>Medium</td>
-        <td>18.4.0</td>
-        <td>18.20.6, 20.18.2, 22.13.1, 23.6.1</td>
+        <td><code>cryptography</code></td>
+        <td><a href="https://github.com/advisories/GHSA-79v4-65xg-pq4g" target="_blank">GHSA-79v4-65xg-pq4g</a></td>
+        <td>Low</td>
+        <td>43.0.1</td>
+        <td>44.0.1</td>
     </tr>
     <tr>
         <td><code>python</code></td>
@@ -319,6 +312,13 @@
     </tr>
     <tr>
         <td><code>node</code></td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-23085" target="_blank">CVE-2025-23085</a></td>
+        <td>Medium</td>
+        <td>18.4.0</td>
+        <td>18.20.6, 20.18.2, 22.13.1, 23.6.1</td>
+    </tr>
+    <tr>
+        <td><code>node</code></td>
         <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-32002" target="_blank">CVE-2023-32002</a></td>
         <td>Critical</td>
         <td>18.4.0</td>
@@ -337,6 +337,13 @@
         <td>Medium</td>
         <td>18.4.0</td>
         <td>20.19.2</td>
+    </tr>
+    <tr>
+        <td><code>python</code></td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-6069" target="_blank">CVE-2025-6069</a></td>
+        <td>Medium</td>
+        <td>3.13.1</td>
+        <td>3.14.0</td>
     </tr>
     <tr>
         <td><code>node</code></td>
@@ -378,21 +385,21 @@
         <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-23918" target="_blank">CVE-2023-23918</a></td>
         <td>High</td>
         <td>18.4.0</td>
-        <td>19.6.1</td>
+        <td>14.21.3, 16.19.1, 18.14.1</td>
     </tr>
     <tr>
         <td><code>node</code></td>
         <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-23918" target="_blank">CVE-2023-23918</a></td>
         <td>High</td>
         <td>18.4.0</td>
-        <td>14.21.3, 16.19.1, 18.14.1</td>
+        <td>19.6.1</td>
     </tr>
     <tr>
         <td><code>python</code></td>
         <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-4516" target="_blank">CVE-2025-4516</a></td>
         <td>Medium</td>
         <td>3.13.1</td>
-        <td>3.14.0b1</td>
+        <td>3.9.23, 3.10.18, 3.11.13, 3.12.11, 3.13.4, 3.14.0b2</td>
     </tr>
     <tr>
         <td><code>node</code></td>
@@ -407,5 +414,19 @@
         <td>High</td>
         <td>18.4.0</td>
         <td>16.20.1, 18.16.1, 20.3.1</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td><a href="https://github.com/advisories/GHSA-pq67-6m6q-mj2v" target="_blank">GHSA-pq67-6m6q-mj2v</a></td>
+        <td>Medium</td>
+        <td>2.0.7</td>
+        <td>2.5.0</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td><a href="https://github.com/advisories/GHSA-48p4-8xcf-vxj5" target="_blank">GHSA-48p4-8xcf-vxj5</a></td>
+        <td>Medium</td>
+        <td>2.0.7</td>
+        <td>2.5.0</td>
     </tr>
 </table>
